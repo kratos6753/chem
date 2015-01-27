@@ -1,4 +1,4 @@
-<div class="container">   
+<div class="timeline-container">   
     <div class="main">
         <ul class="cbp_tmtimeline">
             <li>

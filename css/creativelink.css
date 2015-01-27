@@ -449,18 +449,26 @@
 	-webkit-transform: translateX(-25%);
 }
 
-.cl-effect-10 a:hover span,
-.cl-effect-10 a:focus span {
+.cl-effect-10 a:not(.active):hover span,
+.cl-effect-10 a:not(.active):focus span {
 	-webkit-transform: translateX(100%);
 	-moz-transform: translateX(100%);
 	transform: translateX(100%);
 }
 
-.cl-effect-10 a:hover::before,
-.cl-effect-10 a:focus::before {
+.cl-effect-10 a:not(.active):hover::before,
+.cl-effect-10 a:not(.active):focus::before {
 	-webkit-transform: translateX(0%);
 	-moz-transform: translateX(0%);
 	transform: translateX(0%);
+}
+
+.cl-effect-10 a.active {
+	color: #0f7c67 !important;
+}
+
+.cl-effect-10 a.active span {
+	background: #fff;
 }
 
 /* Effect 11: text fill based on Lea Verou's animation http://dabblet.com/gist/6046779 */

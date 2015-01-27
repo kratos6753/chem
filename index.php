@@ -12,17 +12,17 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-git2.min.js"></script>
 	<script type="text/javascript" src="js/jquery.webticker.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/pagedown/1.0/Markdown.Converter.min.js"></script>
-	<link href="https://google-code-prettify.googlecode.com/svn/loader/prettify.css" rel="stylesheet" type="text/css"/>
-	<script src="https://google-code-prettify.googlecode.com/svn/loader/prettify.js"></script>
-	<script type="text/javascript" src="http://vanderlee.github.io/coverflow/jquery.coverflow.js"></script>
-	<script src="http://vanderlee.github.io/coverflow/jquery.interpolate.js"></script>
-	<script src="http://vanderlee.github.io/coverflow/jquery.mousewheel.js"></script>
-	<script src="http://vanderlee.github.io/coverflow/jquery.touchSwipe.min.js"></script>
-	<script src="http://vanderlee.github.io/coverflow/reflection.js"></script>
-	<script type="text/javascript" src="http://git.aaronlumsden.com/tabulous.js/js/tabulous.js"></script>
-	<script type="text/javascript" src="http://tympanus.net/Blueprints/VerticalTimeline/js/modernizr.custom.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/Markdown.Converter.min.js"></script>
+	<link href="css/prettify.css" rel="stylesheet" type="text/css"/>
+	<script src="js/prettify.js"></script>
+	<script type="text/javascript" src="js/jquery.coverflow.js"></script>
+	<script src="js/jquery.interpolate.js"></script>
+	<script src="js/jquery.mousewheel.js"></script>
+	<script src="js/jquery.touchSwipe.min.js"></script>
+	<script src="js/reflection.js"></script>
+	<script type="text/javascript" src="js/tabulous.js"></script>
+	<script type="text/javascript" src="js/modernizr.custom.js"></script>
 	<script type="text/javascript">
 		// The following example creates a marker in Stockholm, Sweden
 		// using a DROP animation. Clicking on the marker will toggle
@@ -64,6 +64,7 @@
 	<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 <body>
+<div class="loader"></div>
 <?php include('base/nav.php') ?>
 <?php 
 	switch($_GET['page']){
