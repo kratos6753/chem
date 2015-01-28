@@ -10,16 +10,16 @@
 	</div>
 	<div class="image-slider">
 		<div class="home coverflow">
-			<div class="cover"></div>
-			<div class="cover"></div>
-			<div class="cover"></div>
-			<div class="cover"></div>
-			<div class="cover"></div>
-			<div class="cover"></div>
-			<div class="cover"></div>
-			<div class="cover"></div>
-			<div class="cover"></div>
-			<div class="cover"></div>
+			<div class="cover cover1"></div>
+			<div class="cover cover2"></div>
+			<div class="cover cover3"></div>
+			<div class="cover cover4"></div>
+			<div class="cover cover5"></div>
+			<div class="cover cover6"></div>
+			<div class="cover cover7"></div>
+			<div class="cover cover8"></div>
+			<div class="cover cover9"></div>
+			<div class="cover cover10"></div>
 		</div>
 	</div>
 </div>

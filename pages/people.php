@@ -1,138 +1,80 @@
 <div class="team-container">
-	<h1>Secretaries</h1>
-	<div class="grid">
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img02"/>
-			<figcaption>
-				<p>chiru6753@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img16"/>
-			<figcaption>
-				<p>raghu1kalluri@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
+	<span>Secretaries</span>
+	<div class="row">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-md-offset-4 col-sm-offset-3 col-xs-offset-2">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
 	</div>
-	<h1>Events Team</h1>
-	<div class="grid">
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img02"/>
-			<figcaption>
-				<p>chiru6753@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img16"/>
-			<figcaption>
-				<p>raghu1kalluri@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
+	<span>Events</span>
+	<div class="row">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-md-offset-4 col-sm-offset-3 col-xs-offset-2">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
 	</div>
-	<h1>Sponsorship Team</h1>
-	<div class="grid">
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img02"/>
-			<figcaption>
-				<p>chiru6753@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img16"/>
-			<figcaption>
-				<p>raghu1kalluri@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
+	<span>Sponsorship</span>
+	<div class="row">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-md-offset-4 col-sm-offset-3 col-xs-offset-2">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
 	</div>
-	<h1>Publicity Team</h1>
-	<div class="grid">
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img02"/>
-			<figcaption>
-				<p>chiru6753@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img16"/>
-			<figcaption>
-				<p>raghu1kalluri@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
+	<span>Publicity</span>
+	<div class="row">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-md-offset-4 col-sm-offset-3 col-xs-offset-2">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
 	</div>
-	<h1>Media Team</h1>
-	<div class="grid">
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img02"/>
-			<figcaption>
-				<p>chiru6753@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img16"/>
-			<figcaption>
-				<p>raghu1kalluri@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
+	<span>Media</span>
+	<div class="row">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-md-offset-4 col-sm-offset-3 col-xs-offset-2">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
 	</div>
-	<h1>Facilities &amp; Requirements Team</h1>
-	<div class="grid">
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img02"/>
-			<figcaption>
-				<p>chiru6753@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img16"/>
-			<figcaption>
-				<p>raghu1kalluri@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
+	<span>Facilities &amp; Requirements</span>
+	<div class="row">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-md-offset-4 col-sm-offset-3 col-xs-offset-2">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
 	</div>
-	<h1>Design Team</h1>
-	<div class="grid">
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img02"/>
-			<figcaption>
-				<p>chiru6753@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img16"/>
-			<figcaption>
-				<p>raghu1kalluri@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
+	<span>Design</span>
+	<div class="row">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-md-offset-4 col-sm-offset-3 col-xs-offset-2">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
 	</div>
-	<h1>Webops Team</h1>
-	<div class="grid">
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img02"/>
-			<figcaption>
-				<p>chiru6753@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
-		<figure class="effect-bubba">
-			<img src="img/profile.jpg" alt="img16"/>
-			<figcaption>
-				<p>raghu1kalluri@gmail.com</p>
-				<p>9885269939</p>
-			</figcaption>
-		</figure>
+	<span>Web Operations</span>
+	<div class="row">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-md-offset-4 col-sm-offset-3 col-xs-offset-2">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
+	</div>
+	<span>Finance</span>
+	<div class="row">
+		<div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 col-md-offset-5 col-sm-offset-5 col-xs-offset-4">
+			<img src="img/profile.jpg" class="img-responsive">
+		</div>
 	</div>
 </div>
