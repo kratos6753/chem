@@ -1,7 +1,7 @@
 <div class="cover">
 	<div class="tabs chem_innovate" id="tabs">
 		<ul style="list-style:none;">
-			<li><a href="#tabs-1">Event Format</a></li>
+			<li><a href="#tabs-1">Introduction</a></li>
 			<li><a href="#tabs-2">Registration</a></li>
 			<li><a href="#tabs-3">Rules &amp; Regulations</a></li>
 			<li><a href="#tabs-4">Prizes</a></li>
@@ -33,7 +33,7 @@
 <div class="cover">
 	<div class="tabs cheq" id="tabs2">
 		<ul style="list-style:none;">
-			<li><a href="#tabs-1">Event Format</a></li>
+			<li><a href="#tabs-1">Introduction</a></li>
 			<li><a href="#tabs-2">Registration</a></li>
 			<li><a href="#tabs-3">Rules &amp; Regulations</a></li>
 			<li><a href="#tabs-4">Prizes</a></li>
@@ -67,7 +67,7 @@
 <div class="cover">
 	<div class="tabs projectx" id="tabs3">
 		<ul style="list-style:none;">
-			<li><a href="#tabs-1">Event Format</a></li>
+			<li><a href="#tabs-1">Introduction</a></li>
 			<li><a href="#tabs-2">Registration</a></li>
 			<li><a href="#tabs-3">Rules &amp; Regulations</a></li>
 			<li><a href="#tabs-4">Prizes</a></li>
