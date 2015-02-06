@@ -11,6 +11,7 @@ a:active,a:focus {
 
 p {
 	margin-bottom: 20px;
+	text-align: justify;/*I wrote this code*/
 }
 
 #wrapper {
@@ -33,13 +34,14 @@ p {
 #tabs li a,#tabs2 li a,#tabs3 li a,#tabs4 li a,#tabs5 li a {
 	display: block;
 	padding: 17px 30px;
-	background: #544f6b;
+	background: #0f7c67;/*#544f6b*/
 	text-decoration: none;
 	color: #8478B3;
 }
 
 #tabs li a:hover,#tabs2 li a:hover,#tabs3 li a:hover,#tabs4 li a:hover,#tabs5 li a:hover {
-	background: rgb(78, 74, 99);
+	background: #fff;/*rgb(78, 74, 99)*/
+	color: #0f7c67 !important;
 }
 
 #tabs_container {
@@ -50,7 +52,7 @@ p {
 }
 
 #tabs_container div {
-	margin-right: 40px;
+	margin-right: 20px;/*40px*/
 }
 
 .transition {

@@ -13,6 +13,7 @@ include_once 'includes/function.php';
 		$addition = mysql_query($query);
 		confirm_query($addition, "Insertion");
 		echo "Thank you  for your feedback.";
+		
 
 
 		 
