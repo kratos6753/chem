@@ -4,8 +4,10 @@
 			<iframe width="90%" height="315" src="//www.youtube.com/embed/FZZSZKnlu_U" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div class="description">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu elementum mauris, ac dignissim leo. Quisque varius mollis neque, ut commodo ex venenatis in. Integer quis pellentesque mauris, eu volutpat ipsum. Morbi facilisis rhoncus sem, a finibus lorem tincidunt id. Integer augue nunc, porta id quam vitae, interdum pulvinar sem. In gravida, orci sagittis sollicitudin fermentum, lorem mi porta ipsum, ut dignissim felis turpis sed tellus. Nullam sed malesuada mi. Donec viverra, odio et rhoncus rhoncus, dui arcu fringilla orci, sit amet luctus eros risus ac ligula.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu elementum mauris, ac dignissim leo. Quisque varius mollis neque, ut commodo ex venenatis in. Integer quis pellentesque mauris, eu volutpat ipsum. Morbi facilisis rhoncus sem, a finibus lorem tincidunt id. Integer augue nunc, porta id quam vitae, interdum pulvinar sem. In gravida, orci sagittis sollicitudin fermentum, lorem mi porta ipsum, ut dignissim felis turpis sed tellus. Nullam sed malesuada mi. Donec viverra, odio et rhoncus rhoncus, dui arcu fringilla orci, sit amet luctus eros risus ac ligula.</p>
+			<p>Department of Chemical Engineering, IIT Madras is proud to present the 8th edition of its Annual Technical Festival ChemClave from March 13th - 15th, 2015.<br>
+			We call it our annual celebration of the Spirit of Chemical Engineering rather than just some annual technical fest.<br> 
+			Born in 2008, with the motto of promoting technology, scientific thinking and innovation in the field of Chemical Engineering, ChemClave has passed 7 golden editions and today it is successfully planning towards its 8th edition.<br>
+			It provides an opportunity to all the budding Chemical Engineers to compete, exchange ideas, collaborate and learn and of course have fun all under the same roof.</p>
 		</div>
 	</div>
 	<div class="image-slider">
