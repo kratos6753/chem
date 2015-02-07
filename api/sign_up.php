@@ -10,6 +10,7 @@ session_start();
 		$city = $_POST['city'];
 		$phone_number = $_POST['phone_number'];
 		$email = $_POST['email'];
+		$accomodation = $_POST['accomodation'];
 		$query = "SELECT * FROM users WHERE email = '{$email}' ";
 		$user_set = mysql_query($query);
 			if ($user = mysql_fetch_array($user_set)) {
@@ -36,8 +37,8 @@ session_start();
 			    $af = "Hi";
 				$message = wordwrap($message, 70, "\r\n");
 				mail($email, 'Verify email address', $message);
-				$query = "INSERT INTO users_temp (name, password, college, email, phone_number, city, user_key)
-		 		VALUES ('{$name}', '{$password}','{$college}','{$email}', '{$phone_number}', '{$city}', '{$verification_code}'  ) ";
+				$query = "INSERT INTO users_temp (name, password, college, email, phone_number, city, user_key, accomodation )
+		 		VALUES ('{$name}', '{$password}','{$college}','{$email}', '{$phone_number}', '{$city}', '{$verification_code}', '{$accomodation}'  ) ";
 				
 				$addition = mysql_query($query);
 				confirm_query($addition, "Insertion");
