@@ -48,8 +48,8 @@
 			<input type="password" name="password1" placeholder="Enter Password" required /><br>
 			<input type="password" name="password2" placeholder="Retype Password" required /><br>
 			<span>Accomodation: </span>
-			<input type="radio" name="accomodation" /> Yes
-			<input type="radio" name="accomodation" checked /> No<br>
+			<input type="radio" name="accomodation" value="1" /> Yes
+			<input type="radio" name="accomodation" checked value="0" /> No<br>
 			<button type="submit" name="submit" class="btn btn-primary btn-block btn-large">submit</button>
 		</form>
 	</div>

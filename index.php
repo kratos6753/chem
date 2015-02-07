@@ -94,6 +94,9 @@
 		case 'contact':
 			include('pages/contact.php');
 			break;
+		case 'dashboard':
+			include('pages/dashboard.php');
+			break;
 		default:
 			include('pages/home.php');
 	}
