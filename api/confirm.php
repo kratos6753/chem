@@ -31,6 +31,8 @@ session_start();
 			}else{
 				echo "invalid token";
 			} 	
-	}else echo "invalid URL"; 
+	}else {
+		header("Location:../?page=home");
+	} 
 	
 ?>

@@ -11,7 +11,8 @@ session_start();
 		if (mysql_fetch_array($user_set)) {
 			echo "Correct";
 			$_SESSION['logged_in'] = true;
-			header("Location: ../");
+			$_SESSION['email'] = $email;
+			header("Location: ../?page=dashboard");
 		}else {
 			echo "Invalid Credentials";
 			$_SESSION['user_error'] = 2;
@@ -22,6 +23,6 @@ session_start();
 
 		 
 	}else{
-		echo "Invalid Url";
+		header("Location:../?page=home");
 	}
 ?>

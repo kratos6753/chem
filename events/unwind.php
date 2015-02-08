@@ -68,7 +68,7 @@
 				<p>Needless to say, Quizzing needs no introduction at IIT Madras. Come buckle up your brains and battle it out for the the first ever edition of The ChemClave Open Quiz!</p>
 			</div>
 			<div id="tabs-2">
-				<p>Spot Registration</p>
+				<p>On Spot Registration</p>
 			</div>
 			<div id="tabs-3">
 				<p>Will be added soon.Come back later.</p>

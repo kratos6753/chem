@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-
+<?php 
+include_once 'api/includes/connection.php';
+include_once 'api/includes/function.php';
+session_start();
+?>
 <html>
 <head>
 	<title>Chemclave'15</title>
@@ -11,8 +15,8 @@
 	<link rel="stylesheet" type="text/css" href="css/default.css">
 	<link rel="stylesheet" type="text/css" href="css/component.css">
 	<link rel="stylesheet" type="text/css" href="css/tabulous.css">
-	<link rel="stylesheet" type="text/css" href="css/creativelink.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">-->
+	<link rel="stylesheet" type="text/css" href="css/creativelink.css">-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<script type="text/javascript" src="js/libraries.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 	<!--

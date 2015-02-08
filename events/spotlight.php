@@ -15,6 +15,9 @@
 			</div>
 			<div id="tabs-2">
 				<p>Pre Registered</p>
+				<form method="post">
+					<button type="submit" name="event" value="censeo">Register</button>
+				</form>
 			</div>
 			<div id="tabs-3">
 				<p>Problem statements will be released for this event and the participants (team of max 3 members) have to make a presentation on the problem statement.
@@ -49,6 +52,9 @@
 			</div>
 			<div id="tabs-2">
 				<p>Pre Registered</p>
+				<form method="post">
+					<button type="submit" name="event" value="ensino">Register</button>
+				</form>
 			</div>
 			<div id="tabs-3">
 				<p>Will be added soon.Come back later.</p>
@@ -81,6 +87,9 @@
 			</div>
 			<div id="tabs-2">
 				<p>Pre Registered</p>
+				<form method="post">
+					<button type="submit" name="event" value="paper_presentation">Register</button>
+				</form>
 			</div>
 			<div id="tabs-3">
 				<p>Will be added soon.Come back later.</p>
@@ -113,6 +122,9 @@
 			</div>
 			<div id="tabs-2">
 				<p>Pre Registered</p>
+				<form method="post">
+					<button type="submit" name="event" value="poster_presentation">Register</button>
+				</form>
 			</div>
 			<div id="tabs-3">
 				<p>Atleast two month research work should be done on that particular topic which you will be presenting</p>

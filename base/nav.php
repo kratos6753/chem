@@ -8,13 +8,12 @@
 			<li <?php if($_GET['page']=='people'){ echo 'class="active"'; } ?>><a href="?page=people">People</a></li>
 			<li <?php if($_GET['page']=='spons'){ echo 'class="active"'; } ?>><a href="?page=spons">Sponsors</a></li>
 			<li <?php if($_GET['page']=='contact'){ echo 'class="active"'; } ?>><a href="?page=contact">Reach Us</a></li>
-			<li <?php if($_GET['page']=='register'){ echo 'class="active"'; } ?>>
+			<li <?php if($_GET['page']=='register'|| $_GET['page']=='dashboard'){ echo 'class="active"'; } ?>>
 			<?php 
-				session_start();
 				if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']){
 					echo "<a href=\"?page=dashboard\">Dashboard</a>";
 				}else{
-					echo " <a href=\"?page=register\">Register</a>";
+					echo " <a href=\"?page=register\">Register/Login</a>";
 				}
 			?>
 			</li>
@@ -26,5 +25,6 @@
 	<i class="fa fa-bullhorn ticker-icon"></i>
 	<ul id="webticker">
 		<li>The chemclave is going to start on March14-15.</li>
+		<li>Event Registrations are opened.</li>	
 	</ul>
 </div>

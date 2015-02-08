@@ -45,5 +45,7 @@ session_start();
 				echo "A verification message has been sent to your email. Please confirm your mail by clicking on the 
 				link sent.";	
 			}
+	} else {
+		header("Location:../?page=home");
 	}
 ?>

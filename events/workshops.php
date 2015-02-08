@@ -44,6 +44,9 @@
 			</div>
 			<div id="tabs-2">
 				<p>Pre- Registered</p>
+				<form method="post" style="z-index:10">
+					<button type="submit" name="event" value="comsol_workshop">Register</button>
+				</form>
 			</div>
 			<div id="tabs-3">
 				<p>Will be added soon.Come back later.</p>

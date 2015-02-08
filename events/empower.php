@@ -17,6 +17,9 @@
 			</div>
 			<div id="tabs-2">
 				<p>Pre Registered</p>
+				<form method="post">
+					<button type="submit" name="event" value="chem_innovate">Register</button>
+				</form>
 			</div>
 			<div id="tabs-3">
 				<p>Will be added soon.Come back later.</p>

@@ -463,6 +463,44 @@ events page
 /*
 **
 **
+dashboard
+**
+**
+*/
+.dashboard-container {
+	width: 100%;
+	padding: 0 10%;
+	height: 80%;
+	background: #eee;
+	margin-top: -19px;
+}
+
+.dashboard-container a {
+	color: #0f7c67;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.dashboard-container a:hover {
+	color: #000;
+}
+
+.dashboard-container .event-display tr {
+	height: 50px;
+}
+
+.dashboard-container .event-display tr td {
+	text-align: center;
+	width: 200px;
+}
+
+.dashboard-container .event-display tr td.not-registered {
+	width: 400px;
+}
+
+/*
+**
+**
 timeline page
 **
 **

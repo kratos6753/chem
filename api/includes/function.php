@@ -3,6 +3,5 @@
 	if (!$query_result){
 		die("Database ". $message . " Failed. " . mysql_error());
 	}
-	
 }
 ?>

@@ -9,7 +9,7 @@
 
 	
 	if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']){
-		
+		header("Location: ?page=dashboard");
 	}
 	if (isset($_SESSION['user_error'])){
 		echo "error is there";
