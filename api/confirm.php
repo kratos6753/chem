@@ -19,6 +19,8 @@ session_start();
 						$query = "SELECT * FROM users WHERE email = '{$email}' ";
 						$user_set = mysql_query($query);
 						if ($user = mysql_fetch_array($user_set)) {
+							$_SESSION['logged_in'] = true;
+							$_SESSION['email'] = $email;
 							echo "Congragulations. Your Registration is completed.";
 						} else {
 							$query = "INSERT INTO users (name, password, college, email, phone_number, city, accomodation)

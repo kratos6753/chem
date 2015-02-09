@@ -59,10 +59,10 @@
 			<input type="text" name="email" placeholder="Email" required value="<?php echo $email;?>" /><br>
 			<input type="password" name="password" placeholder="Enter Password" required /><br>
 			<button type="submit" name="submit"  class="btn btn-primary btn-block btn-large">submit</button>
-			<h1>Login via</h1>
+			<!--<h1>Login via</h1>
 			<a href="#" class="social_links google">Login with Google</a>
 			<a href="#" class="social_links facebook">Login with Facebook</a>
-			<a href="#" class="social_links twitter">Login with Twitter</a>
+			<a href="#" class="social_links twitter">Login with Twitter</a>-->
 		</form>
 	</div>
 </div>

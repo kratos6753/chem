@@ -9,7 +9,6 @@ session_start();
 		$query = "SELECT * FROM users WHERE email = '{$email}' AND password = '{$password}' ";
 		$user_set = mysql_query($query);
 		if (mysql_fetch_array($user_set)) {
-			echo "Correct";
 			$_SESSION['logged_in'] = true;
 			$_SESSION['email'] = $email;
 			header("Location: ../?page=dashboard");

@@ -8,7 +8,6 @@
 		$email = $_SESSION['email'];
 		$query = "UPDATE users SET {$event}=0 WHERE email='{$email}'";
 		$result = mysql_query($query);
-		header("Location: ?page=dashboard");
 	}
 ?>
 <div class="dashboard-container">
