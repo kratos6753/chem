@@ -12,7 +12,8 @@ include_once 'includes/function.php';
 					 		VALUES ('{$name}', '{$email}', '{$phone_number}', '{$message}'  ) ";
 		$addition = mysql_query($query);
 		confirm_query($addition, "Insertion");
-		echo "Thank you  for your feedback.";
+		header("refresh:5;url=../?page=home");
+		echo "Thank you  for your feedback.Go to <a href='../?page=home'>Home Page<a>.";
 		
 
 

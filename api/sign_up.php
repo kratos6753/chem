@@ -15,7 +15,6 @@ session_start();
 		$user_set = mysql_query($query);
 			if ($user = mysql_fetch_array($user_set)) {
 				$error = 1;
-				echo "User Already Exists";
 				$_SESSION['user_error'] = 1;
 				$_SESSION['temp_name'] = $_POST['name'];
 				$_SESSION['password'] = $_POST['password1'];

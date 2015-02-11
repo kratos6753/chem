@@ -36,8 +36,8 @@
 	<div class="register">
 		<form method="POST" action="api/sign_up.php">
 			<h1>Register</h1>
-			<input type="text" name="name" placeholder="Name" value="<?php echo $name;?>" required /><br>
-			<input type="email" name="email" placeholder="Email" required />
+			<input type="text" name="name" placeholder="Name" value="<?php echo $name;?>" required data-validation-length="min30" /><br>
+			<input type="email" name="email" placeholder="Email" required data-validation="email" />
 			<?php 
 				if ($error == 1){ echo "<font color=\"white\"><p>Email already exist.</p></font>";}
 			?>

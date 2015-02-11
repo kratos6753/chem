@@ -2,6 +2,17 @@
 include_once 'api/includes/connection.php';
 include_once 'api/includes/function.php';
 session_start();
+if($_GET['page']=='events' && isset($_POST['event'])){
+	if(isset($_SESSION['logged_in']) && $_SESSION['logged_in']){
+		$event = $_POST['event'];
+		$email = $_SESSION['email'];
+		$query = "UPDATE users SET {$event}=1 WHERE email='{$email}'";
+		$result = mysql_query($query);
+		header("Location: ?page=dashboard");
+	}else{
+		header("Location: ?page=register");
+	}
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -77,14 +88,6 @@ session_start();
 </head>
 <body>
 <div class="loader"></div>
-<?php
-	if($_GET['page']=='events' && isset($_POST['event'])){
-		$event = $_POST['event'];
-		$email = $_SESSION['email'];
-		$query = "UPDATE users SET {$event}=1 WHERE email='{$email}'";
-		$result = mysql_query($query);
-		header("Location: ?page=dashboard");	
-	} ?>
 <?php include('base/nav.php') ?>
 <?php 
 	switch($_GET['page']){

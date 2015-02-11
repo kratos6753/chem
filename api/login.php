@@ -13,7 +13,6 @@ session_start();
 			$_SESSION['email'] = $email;
 			header("Location: ../?page=dashboard");
 		}else {
-			echo "Invalid Credentials";
 			$_SESSION['user_error'] = 2;
 			$_SESSION['temp_name'] = $_POST['email'];
 			header("Location: ../?page=register");
